@@ -46,7 +46,9 @@ python fetch_real_data.py --start_year 1990 --end_year 2018 --backup_existing
 
 This will download real historical stock prices from Yahoo Finance and replace the dummy data files.
 
-For more details, see [data/README.md](data/README.md).
+**📖 For complete usage instructions, see [USAGE.md](USAGE.md)**
+
+For data format details, see [data/README.md](data/README.md).
 
 ## Plots
 We plot three important metrics to quantify the effectiveness of our model: [Intraday-240,3-LSTM.py](Intraday-240%2C3-LSTM.py) and [Intraday-240,3-RF.py](Intraday-240%2C3-RF.py), in the period January 1993 till December 2018. <br>
