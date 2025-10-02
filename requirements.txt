@@ -1,0 +1,8 @@
+# Core dependencies for stock market forecasting
+scikit-learn==0.20.4
+tensorflow==1.14.0
+
+# Data fetching
+yfinance>=0.2.0
+pandas>=0.24.0
+numpy>=1.16.0
