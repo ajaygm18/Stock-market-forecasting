@@ -16,7 +16,17 @@ pip install scikit-learn==0.20.4 tensorflow==1.14.0
 pip install yfinance pandas numpy
 ```
 
-### 2. Fetch Real Data
+### 2. Check Current Data Status
+
+To check if you have real or fake data:
+
+```bash
+python check_data.py
+```
+
+This will tell you whether your data files contain real or dummy data.
+
+### 3. Fetch Real Data
 
 **Important:** The default data files are fake/dummy data. To use real stock data:
 
@@ -39,7 +49,7 @@ The script will:
 
 **Note:** Fetching data for 1990-2018 may take 30-60 minutes depending on your internet connection.
 
-### 3. Run Forecasting Models
+### 4. Run Forecasting Models
 
 Once you have real data, run any of the forecasting scripts:
 
@@ -73,7 +83,7 @@ python Intraday-240,3-RF.py
 python Intraday-240,3-LSTM.py
 ```
 
-### 4. View Results
+### 5. View Results
 
 Results are saved in result directories:
 - `results-NextDay-240-1-RF/`
